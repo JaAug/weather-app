@@ -1,0 +1,82 @@
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+a {
+  color: #58727f;
+  font-size: 20px;
+  font-weight: 300;
+}
+form,
+.filling-words,
+.current-city,
+.forecast {
+  text-align: left;
+}
+.container {
+  background: rgba(131, 175, 166, 0.4);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #58727f;
+  max-width: 50%;
+  padding: 20px;
+  border: 2px solid #58727f;
+  border-radius: 6px;
+}
+
+.current-weather {
+  display: block;
+  font-size: 65px;
+  margin-top: 10px;
+}
+.filling-words {
+  font-size: 20px;
+  font-weight: 300;
+}
+.current-city {
+  font-weight: 700;
+  font-size: 80px;
+  color: #58727f;
+}
+.text-box {
+  color: #58727f;
+}
+.change-button,
+#geolocation-button {
+  background: #d3a284;
+  color: #58727f;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  float: right;
+}
+.change-button {
+  padding: 15px 22px;
+}
+#geolocation-button {
+  padding: 5px;
+}
+
+.change-button:hover,
+#geolocation-button:hover {
+  background: #e5e5e5;
+  color: #d3a284;
+  border: 2px solid #d3a284;
+}
+.forecast {
+  font-weight: 200;
+}
+.card-header {
+  background: #d3a284;
+  font-weight: 600;
+  font-size: 20px;
+}
+.weather-icon {
+  display: block;
+  font-size: 50px;
+  padding-top: 10px;
+}
+.card-body,
+.weather-icon {
+  background: #e5e5e5;
+}
