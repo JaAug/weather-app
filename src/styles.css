@@ -1,8 +1,9 @@
 h1 {
-  font-size: 90px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 600;
 }
-a {
+#fahrenheit-link,
+#celcius-link {
   color: #58727f;
   font-size: 20px;
   font-weight: 300;
@@ -34,7 +35,7 @@ form,
   font-weight: 300;
 }
 .current-city {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 80px;
   color: #58727f;
 }
@@ -79,4 +80,11 @@ form,
 .card-body,
 .weather-icon {
   background: #e5e5e5;
+}
+.footer {
+  font-size: 15px;
+  color: #58727f;
+  margin-top: 5px;
+  text-align: left;
+  padding-top: 10px;
 }
